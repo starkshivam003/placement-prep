@@ -1,3 +1,18 @@
+/*
+LC0004: Median of Two Sorted Arrays
+Difficulty: Hard
+*/
+/*
+My Code: My first Hard problem on leetcode. Uses two-pointers approach till the half of the combined array.
+Time Complexity: O(m+n)
+Space Complexity: O(1) 
+*/
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -59,3 +74,23 @@ public:
         }
     }
 };
+
+int main(){
+    vector<int> nums1, nums2;
+    int n1, n2,x;
+    cout<<"Type the number of elements followed by values in array1: "<<endl;
+    cin>>n1;
+    for(int i=0;i<n1;i++){
+        cin>>x;
+        nums1.push_back(x);
+    }
+    cout<<"Type the number of elements followed by values in array2: "<<endl;
+    cin>>n2;
+    for(int i=0;i<n2;i++){
+        cin>>x;
+        nums1.push_back(x);
+    }
+    Solution sol;
+    cout<<"The median is: "<<sol.findMedianSortedArrays(nums1,nums2)<<endl;
+    return 0;    
+}

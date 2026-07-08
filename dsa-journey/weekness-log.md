@@ -1,5 +1,4 @@
 # Weakness Log
----
 
 ## Entries
 

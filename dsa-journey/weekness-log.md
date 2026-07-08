@@ -1,7 +1,4 @@
 # Weakness Log
-
-Format: `LC#### | Pattern | What went wrong | Status`
-
 ---
 
 ## Entries

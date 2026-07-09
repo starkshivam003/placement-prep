@@ -1,13 +1,23 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+/*
+LC002: Add Two Numbers
+Difficulty: Medium
+
+Approach: I used two-pointers and added the digits in one-pass.
+Time Complexity: O(m+n)
+Space Complexity: O(1) 
+*/
+
+#include<iostream>
+using namespace std;
+
+struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode() : val(0), next(nullptr) {}
+      ListNode(int x) : val(x), next(nullptr) {}
+      ListNode(int x, ListNode *next) : val(x), next(next) {}
+ };
+ 
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -63,3 +73,10 @@ public:
         return l1;
     }
 };
+
+int main(){
+    ListNode l1(0), l2(3);
+    Solution sol;
+    cout<<(sol.addTwoNumbers(&l1,&l2))->val<<endl;
+    return 0;
+}

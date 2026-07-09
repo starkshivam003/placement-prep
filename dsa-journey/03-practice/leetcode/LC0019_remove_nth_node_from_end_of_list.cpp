@@ -22,6 +22,9 @@ public:
         if(l==1){
             return NULL;
         }
+        if(n==0){
+            return head;
+        }
         if(l==n){
             head=head->next;
         }

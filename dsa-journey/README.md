@@ -14,7 +14,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Topic | Status | Problems Solved |
 |-------|--------|----------------|
 | Arrays |Completed | 4 |
-| Linked Lists |Completed | 2 |
+| Linked Lists |Completed | 3 |
 | Stacks & Queues |In Progress | 1 |
 | Trees & BST |Upcoming | — |
 | Graphs |Upcoming | — |

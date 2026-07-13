@@ -17,3 +17,11 @@
   (all-same-element array); true O(log n) needs two biased binary searches
   instead of expand-outward. Revisit for optimal solution. | RESOLVED (crash)
   / OPEN (optimal complexity)
+- LC0043 | Big-number arithmetic / digit-array construction | No built-in
+  integer type holds a 200-digit number — couldn't independently derive the
+  grade-school multiplication + carry-propagation approach or the
+  pos_high/pos_low index formula; needed heavy structural guidance.
+  Reproduced and verified the solution, made small independent choices
+  (broader zero-check, ASCII +/-48 instead of to_string), but not an
+  authentic independent solve. Rewrite from scratch, from memory, required
+  before marking resolved. | OPEN

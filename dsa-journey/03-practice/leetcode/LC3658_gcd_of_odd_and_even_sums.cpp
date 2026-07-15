@@ -1,3 +1,4 @@
+/*
 class Solution {
 public:
     int gcdOfOddEvenSums(int n) {
@@ -10,5 +11,13 @@ public:
             }
         }
         return 1;
+    }
+};
+*/
+// JUST REALISED THE FUNNY SOLUTION AND THE BEAUTY OF MATHEMATICS
+class Solution {
+public:
+    int gcdOfOddEvenSums(int n) {
+        return n;
     }
 };

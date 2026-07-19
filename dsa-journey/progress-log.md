@@ -1,7 +1,10 @@
+# Daily Progress Log
+
 ## Daily Progress
- 
+
 | Day | Date | Completed | Practice | Key Insight | Tomorrow |
 |---|---|---|---|---|---|
 | 14 | Jul 8, 2026 | Stacks & Queues theory (Abdul Bari Sir) | LC20 Valid Parentheses (stack-based, solved same day as theory) | Learnt to apply the concept of stack | Queues |
 | 19 | Jul 13, 2026 | Trees theory in progress (Abdul Bari Sir), started Day 16 (Jul 10) | LC34 Find First and Last Position (binary search — fixed heap-overflow from bounds-check ordering + signed/unsigned compare bug; working solution passes but O(n) worst case, optimal O(log n) not yet written). LC43 Multiply Strings (grade-school digit multiplication + carry propagation, solved with heavy structural guidance, own solution not yet attempted independently) | Bound checks must be part of the loop condition itself (checked every iteration), not a one-time gate before the loop or an inner check after the access already happened | Rewrite LC43 from scratch, from memory, no reference; continue Trees |
 | 21 | Jul 15, 2026 | Trees theory in progress | LC — GCD of Odd/Even Sums: found brute-force O(n) solution first, then independently derived and proved the O(1) closed-form (`return n`) by reasoning about coprimality of consecutive integers (n and n+1), not just pattern-matching. Verified correct against 1,000,000 brute-force cases | Mathematical proof beats pattern-spotting — asked "why is this true" instead of trusting the observation, and it held up | - |
+| 25 | Jul 19, 2026 | BST and Heap theory completed (Abdul Bari Sir) | LC0025 Reverse Nodes in k-Group (Hard) — 2nd Hard problem ever, ~8 hours, built entirely independently (length count, head-insertion reversal, multi-group chaining); needed help diagnosing two bugs (off-by-one length count, `==` vs `=` typo causing a cycle + heap-use-after-free), not a full solve. LC3567 Sum of GCD of Formed Pairs — own solution, correct and efficient (verified against 200k random tests + n=1e5 stress test at 10ms), used `std::sort` deliberately after reasoning it wouldn't beat a library implementation | Syntactically-valid typos (`==` vs `=`) survive dry-testing because the eye reads intent, not literal syntax — compiling with `-Wall` going forward to catch this class of bug automatically | Sorting techniques |

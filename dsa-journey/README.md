@@ -14,13 +14,13 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Topic | Status | Problems Solved |
 |-------|--------|----------------|
 | Arrays |Completed | 5 |
-| Linked Lists |Completed | 6 |
+| Linked Lists |Completed | 7 |
 | Stacks & Queues |Completed | 1 |
-| Trees & BST |In Progress | — |
+| Trees & BST |Completed | — |
 | Graphs |Upcoming | — |
 | Dynamic Programming |Upcoming | — |
 | Backtracking |Upcoming | — |
-| Heap |Upcoming | — |
+| Heap |Completed | — |
 | Binary Search |Upcoming | — |
 | Bit Manipulation |Upcoming | — |
 

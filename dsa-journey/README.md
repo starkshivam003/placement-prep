@@ -21,7 +21,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Dynamic Programming |Upcoming | — |
 | Backtracking |Upcoming | — |
 | Heap |Completed | — |
-| Binary Search |Upcoming | — |
+| Binary Search |Completed | 1 |
 | Bit Manipulation |Upcoming | — |
 
 ## Directory Structure

@@ -11,18 +11,27 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 - **Target:** 250+ problems, all major patterns bulletproof by Oct 31
 
 ## Progress
+
 | Topic | Status | Problems Solved |
-|-------|--------|----------------|
-| Arrays |Completed | 7 |
-| Linked Lists |Completed | 9 |
-| Stacks & Queues |Completed | 1 |
-| Trees & BST |Completed | — |
-| Graphs |Upcoming | — |
-| Dynamic Programming |Upcoming | — |
-| Backtracking |Upcoming | — |
-| Heap |Completed | — |
-| Binary Search |Completed | 1 |
-| Bit Manipulation |Upcoming | — |
+|---|---|---|
+| Recursion | Completed | — |
+| Arrays (Representation + ADT) | Completed | 7 |
+| Strings | Completed | — |
+| Matrices + Sparse Matrix/Polynomial | Completed | — |
+| Linked Lists (+ Sparse via LL) | Completed | 9 |
+| Stacks & Queues | Completed | 1 |
+| Trees (Trees, BST, AVL, Search Trees) | Completed | — |
+| Heap | Completed | — |
+| Sorting Techniques | Completed | — |
+| Hashing Technique | Completed | — |
+| Graphs | In-progress | — |
+| Recurrence Relations | Upcoming | — |
+| Asymptotic Notations | Upcoming | — |
+| Divide and Conquer | Upcoming | — |
+| Greedy Method | Upcoming | — |
+| Dynamic Programming | Upcoming | — |
+| Backtracking | Upcoming | — |
+| Binary Search | Completed | 1 |
 
 ## Directory Structure
 - `01-theory-notes/` — concept notes per topic

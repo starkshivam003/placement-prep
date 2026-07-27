@@ -24,11 +24,11 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Heap | Completed | — |
 | Sorting Techniques | Completed | — |
 | Hashing Technique | Completed | 1 |
-| Graphs | In-progress | — |
-| Recurrence Relations | Upcoming | — |
-| Asymptotic Notations | Upcoming | — |
-| Divide and Conquer | Upcoming | — |
-| Greedy Method | Upcoming | — |
+| Graphs | Completed | — |
+| Recurrence Relations | Completed | — |
+| Asymptotic Notations | Completed | — |
+| Divide and Conquer | Completed | — |
+| Greedy Method | In-Progress | — |
 | Dynamic Programming | Upcoming | — |
 | Backtracking | Upcoming | — |
 | Binary Search | Completed | 1 |

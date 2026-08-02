@@ -15,7 +15,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Topic | Status | Problems Solved |
 |---|---|---|
 | Recursion | Completed | 1 |
-| Arrays (Representation + ADT) | Completed | 10 |
+| Arrays (Representation + ADT) | Completed | 11 |
 | Strings | Completed | 1 |
 | Matrices + Sparse Matrix/Polynomial | Completed | — |
 | Linked Lists (+ Sparse via LL) | Completed | 10 |
@@ -29,8 +29,8 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Asymptotic Notations | Completed | — |
 | Divide and Conquer | Completed | — |
 | Greedy Method | Completed | — |
-| Dynamic Programming | In-Progress | — |
-| Backtracking | Upcoming | — |
+| Dynamic Programming | Completed | 1 |
+| Backtracking | In-Progress | — |
 | Binary Search | Completed | 1 |
 
 ## Directory Structure

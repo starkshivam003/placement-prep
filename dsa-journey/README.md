@@ -30,7 +30,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Divide and Conquer | Completed | — |
 | Greedy Method | Completed | — |
 | Dynamic Programming | Completed | 1 |
-| Backtracking | In-Progress | — |
+| Backtracking | Completed | — |
 | Binary Search | Completed | 1 |
 
 ## Directory Structure

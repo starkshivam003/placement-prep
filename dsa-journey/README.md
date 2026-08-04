@@ -15,7 +15,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Topic | Status | Problems Solved |
 |---|---|---|
 | Recursion | Completed | 1 |
-| Arrays (Representation + ADT) | Completed | 11 |
+| Arrays (Representation + ADT) | Completed | 12 |
 | Strings | Completed | 1 |
 | Matrices + Sparse Matrix/Polynomial | Completed | — |
 | Linked Lists (+ Sparse via LL) | Completed | 10 |
@@ -23,7 +23,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Trees (Trees, BST, AVL, Search Trees) | Completed | 1 |
 | Heap | Completed | — |
 | Sorting Techniques | Completed | — |
-| Hashing Technique | Completed | 1 |
+| Hashing Technique | Completed | 3 |
 | Graphs | Completed | — |
 | Recurrence Relations | Completed | — |
 | Asymptotic Notations | Completed | — |

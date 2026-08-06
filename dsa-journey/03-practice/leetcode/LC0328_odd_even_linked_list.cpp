@@ -14,19 +14,19 @@ public:
         if(head==NULL||head->next==NULL||head->next->next==NULL){
             return head;
         }
-        ListNode *p,*q,*evenHead;
+        ListNode *p,*evenTail,*evenHead;
         evenHead=head->next;
-        q=head;
+        evenTail=head;
         p=evenHead;
         while(p){
-            q->next=p->next;
-            if(q->next){
-                q=p->next;
+            evenTail->next=p->next;
+            if(evenTail->next){
+                evenTail=p->next;
             }
             else{
                 break;
             }
-            p->next=q->next;
+            p->next=evenTail->next;
             if(p->next){
                 p=p->next;
             }
@@ -34,7 +34,7 @@ public:
                 break;
             }
         }
-        q->next=evenHead;
+        evenTail->next=evenHead;
         return head;
     }
 };

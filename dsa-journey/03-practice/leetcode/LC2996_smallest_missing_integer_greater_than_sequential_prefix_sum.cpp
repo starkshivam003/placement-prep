@@ -14,6 +14,9 @@ public:
                 sum+=nums[i];
             }
         }
+        if(sum>50){
+            return sum;
+        }
         int B[51]={0};
         for(int j=0;j<n;j++){
             B[nums[j]]++;
@@ -23,9 +26,6 @@ public:
                 return j;
             }
         }
-        if(sum<51){
-            return 51;
-        }
-        return sum;
+        return 51;
     }
 };

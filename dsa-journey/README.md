@@ -29,7 +29,7 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Asymptotic Notations | Completed | — |
 | Divide and Conquer | Completed | — |
 | Greedy Method | Completed | — |
-| Dynamic Programming | Completed | 3 |
+| Dynamic Programming | Completed | 4 |
 | Backtracking | Completed | — |
 | Binary Search | Completed | 1 |
 

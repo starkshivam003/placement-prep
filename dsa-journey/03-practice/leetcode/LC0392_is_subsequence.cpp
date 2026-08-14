@@ -13,19 +13,21 @@ public:
                 }
             }
         }
-        int j=0;
-        for(int i=0;i<n;i++){
-            int flag=0;
-            while(j<m){
-                if(t[j]==s[i]){
-                    flag=1;
+        if(n<m){
+            int j=0;
+            for(int i=0;i<n;i++){
+                int flag=0;
+                while(j<m){
+                    if(t[j]==s[i]){
+                        flag=1;
+                        j++;
+                        break;
+                    }
                     j++;
-                    break;
                 }
-                j++;
-            }
-            if(flag==0){
-                return false;
+                if(flag==0){
+                    return false;
+                }
             }
         }
         return true;

@@ -58,28 +58,25 @@ public:
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
-        vector<int> stk; // acts as our stack, front-to-back = bottom-to-top
-
-        for (int a : asteroids) {
+        vector<int> ans;
+        for(int a:asteroids){
             bool alive = true;
-
-            // only a positive top can collide with an incoming negative asteroid
-            while (alive && a < 0 && !stk.empty() && stk.back() > 0) {
-                if (stk.back() < -a) {
-                    stk.pop_back();       // top is smaller, it gets destroyed, keep checking
-                } else if (stk.back() == -a) {
-                    stk.pop_back();       // exact match, both destroyed
-                    alive = false;
-                } else {
-                    alive = false;        // top is bigger, incoming asteroid destroyed
+            while(alive&&a<0&&!ans.empty()&&ans.back()>0){
+                if(ans.back()<-a){
+                    ans.pop_back();
+                }
+                else if(ans.back()==-a){
+                    ans.pop_back();
+                    alive=false;
+                }
+                else{
+                    alive=false;
                 }
             }
-
-            if (alive) {
-                stk.push_back(a);
+            if(alive){
+                ans.emplace_back(a);
             }
         }
-
-        return stk;
+        return ans;
     }
 };

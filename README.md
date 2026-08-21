@@ -6,8 +6,8 @@ This repo is a complete, verifiable record of my placement preparation.
 ## Areas
 | Area | Status | Folder |
 |------|--------|--------|
-| DSA (C++) | 🔄 Active | `dsa-journey/` |
-| ML/AI | ⏳ Starts Day 45 | `ml-ai/` |
+| DSA (C++) | Completed | `dsa-journey/` |
+| ML/AI | In-progress | `ml-ai/` |
 | CS Fundamentals | ⏳ Starts Day 45 | `cs-fundamentals/` |
 | System Design | ⏳ Starts Day 55 | `system-design/` |
 | SQL | ⏳ Starts Day 30 | `sql/` |

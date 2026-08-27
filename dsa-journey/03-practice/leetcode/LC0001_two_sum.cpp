@@ -7,6 +7,7 @@ Difficulty: Easy
 My Code: Use nested loops
 Time Complexity: O(n^2)
 */
+/*
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -41,3 +42,23 @@ int main(){
     vector<int> indices = sol.twoSum(A,target);
     cout<<"Indices: " <<indices[0]<<" "<<indices[1]<<endl;
 }
+*/
+// attempt 2: using unordered_map. time-O(n) space-O(n)
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> mpp;
+        for(int i=0;i<(int)nums.size();i++){
+            mpp[nums[i]]=i;
+        }
+        for(int i=0;i<(int)nums.size();i++){
+            int sec=target-nums[i];
+            auto it = mpp.find(sec);
+                if(it != mpp.end() && it->second != i){
+                    return {i, it->second};
+                }
+        }
+        return {};
+    }
+};

@@ -15,11 +15,11 @@ BT-MT student at IIT Kanpur (Biological Sciences and Bioengineering, 2022–27).
 | Topic | Status | Problems Solved |
 |---|---|---|
 | Recursion | Completed | 2 |
-| Arrays (Representation + ADT) | Completed | 22 |
-| Strings | Completed | 9 |
+| Arrays (Representation + ADT) | Completed | 23 |
+| Strings | Completed | 10 |
 | Matrices + Sparse Matrix/Polynomial | Completed | — |
 | Linked Lists (+ Sparse via LL) | Completed | 18 |
-| Stacks & Queues | Completed | 22 |
+| Stacks & Queues | Completed | 23 |
 | Trees (Trees, BST, AVL, Search Trees) | Completed | 3 |
 | Heap | Completed | — |
 | Sorting Techniques | Completed | — |

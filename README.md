@@ -10,7 +10,7 @@ This repo is a complete, verifiable record of my placement preparation.
 | ML/AI | In-progress | `ml-ai/` |
 | CS Fundamentals | ⏳ Starts Day 45 | `cs-fundamentals/` |
 | System Design | ⏳ Starts Day 55 | `system-design/` |
-| SQL | ⏳ Starts Day 30 | `sql/` |
+| SQL | In-progress | `sql/` |
 | Projects | ⏳ Starts Day 75 | `projects/` |
 
 ## Timeline

@@ -32,7 +32,7 @@ public:
 Time Complexity: O(n^2)
 Space Complexity: O(1)
 */
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include <string>
 
@@ -70,4 +70,20 @@ int main(){
     cout<<"Max Profit: "<<sol.maxProfit(A)<<endl;
     return sol.maxProfit(A);
     
-}
+}*/
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n=(int)prices.size(),l=0,r=1,maxprofit=0;
+        while(r<n){
+            if(prices[l]<prices[r]){
+                int profit=prices[r++]-prices[l];
+                maxprofit=max(maxprofit,profit);
+            }
+            else{
+                l=r++;
+            }
+        }
+        return maxprofit;
+    }
+};

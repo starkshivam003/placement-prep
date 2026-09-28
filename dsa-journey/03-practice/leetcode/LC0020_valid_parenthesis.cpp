@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
 public:
     bool isValid(string s) {
         int n=0;
@@ -44,5 +44,25 @@ public:
             return true;
         }
         return false;
+    }
+};*/
+class Solution {
+public:
+    bool isValid(string s) {
+        if((int)s.size()%2) return false;
+        string stk;
+        for(char c:s){
+            if(c=='('||c=='{'||c=='['){
+                stk.push_back(c);
+            }
+            else{
+                if(stk.empty()) return false;
+                char d=stk.back();
+                stk.pop_back();
+                if((c==')'&&d!='(')||(c=='}'&&d!='{')||(c==']'&&d!='[')) return false;
+            }
+        }
+        if(!stk.empty()) return false;
+        return true;
     }
 };
